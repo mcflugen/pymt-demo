@@ -1,0 +1,9 @@
+pymt
+csdms-child
+csdms-sedflux-3d
+csdms-cem
+csdms-hydrotrend
+landlab
+ipython
+jupyter
+matplotlib
