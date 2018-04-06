@@ -7,11 +7,6 @@
     $ bash ./miniconda.sh -b -f -p $(pwd)/conda
     $ export PATH=$(pwd)/conda/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/etc:/usr/lib
 
-## Set the default channels
+## Install an environment for the pymt-demo
 
-    $ conda config --add channels csdms-stack --file=$(pwd)/conda/.condarc
-    $ conda config --add channels conda-forge --file=$(pwd)/conda/.condarc
-
-## Install requirements
-
-    $ conda install python=2.7 --file=requirements.txt
+    $ conda env create -f environment.yml
